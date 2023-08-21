@@ -6,7 +6,6 @@ const queryControler =  (req, res)=> {
     const queryRules =JSON.parse(req.params.query_rules) 
 
     const query = querryString(queryRules)
-    console.log(query)
 
     fetchApiWithQuery(query)
         .then((result) => {
