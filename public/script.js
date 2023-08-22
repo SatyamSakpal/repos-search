@@ -40,7 +40,7 @@ const viewRepos = (resultRepos) => {
         resultView.innerHTML = `
         <div class="no-result">
             <div class="no-result-png">
-                <img src="exclamation-mark-PhotoRoom.png-PhotoRoom.png" alt="">
+                <img src="images/exclamation-mark.png" alt="">
             </div>
             <div class="no-result-msg">
                 <div class="no-result-msg-1">
